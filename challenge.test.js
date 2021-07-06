@@ -35,7 +35,7 @@ const addInTheMiddle = (arr, val) => {
     const middleIndx = arr[Math.round((arr.length - 1) / 2)]
     // const middleIndx = Math.floor(arr.length / 2)
     // return arr.insert(middleIndx ,val);
-    arr.splice(middleIndx, 1);
+    arr.splice(middleIndx, val);
 
 
 };
